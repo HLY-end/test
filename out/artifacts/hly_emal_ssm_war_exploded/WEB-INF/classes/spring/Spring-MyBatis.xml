@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!--引入外部配置文件 方法一-->
+    <context:property-placeholder location="classpath:jdbcConfig.properties" />
+
+    <!--引入外部配置文件 方法二
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:jdbcConfig.properties</value>
+            </list>
+        </property>
+    </bean>-->
+
+    <!--开启注解的扫描，希望处理service和dao，controller不需要Spring框架去处理-->
+    <context:component-scan base-package="com.hly.service">
+        <!--配置那些注解不扫描-->
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+        <context:exclude-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice"/>
+    </context:component-scan>
+
+    <!-- Spring整合Mybatis -->
+
+    <!-- 声明式事务控制 -->
+        <!-- 数据库连接池 -->
+    <bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource"><!--ComboPooledDataSource-->
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <!--连接池参数配置-->
+        <property name="initialSize" value="1"/> <!-- 初始化连接数目  -->
+        <property name="maxActive" value="5"/> <!--连接池支持的最大连接数-->
+        <property name="minIdle" value="1"/> <!-- 空闲连接列表的最大个数 -->
+        <property name="maxIdle" value="5"/> <!-- 空闲连接列表的最小个数 -->
+        <property name="maxWait" value="1000"/> <!-- 连接池中连接用完时,新的请求等待时间,毫秒 -->
+        <!--指定连接被调用时是否经过校验，如果校验未通过，则该连接被连接池断掉，并由连接池尝试调用另一个连接
+         值为true,则validationQuery参数必须为一个非空字串-->
+        <property name="testOnBorrow" value="true"/>
+        <!--在连接返回给调用者前用于校验连接是否有效的SQL语句，如果指定了SQL语句，则必须为一个SELECT语句，且至少有一行结果-->
+        <property name="validationQuery" value="select 1"/>
+        <!--检查连接死活的时间间隔，单位：毫秒-->
+        <property name="validationInterval" value="30000"/>
+    </bean>
+
+    <!-- Spring整合MyBatis -->
+    <!-- 配置MyBatis SqlSessionFactory -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <!-- 配置mybatis全局配置文件 -->
+        <property name="configLocation" value="classpath:myBatis/Mybatis_Config.xml"/>
+        <property name="mapperLocations" value="classpath:mapper/*.xml"/>
+    </bean>
+
+    <!-- 配置Dao所在包 Mybatis会动态创建实现类 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName"  value="sqlSessionFactory"/>
+        <property name="basePackage" value="com.hly.dao"/>
+    </bean>
+    <!--<bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"></property>
+        <property name="mapperInterface" value="com.hly.dao.IUserDao"></property>
+    </bean>-->
+
+    <!-- 事务管理器 -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- 使用注解定义事务 -->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <!-- 事务通知
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="*" isolation="DEFAULT" read-only="false" propagation="REQUIRED"/>
+            <tx:method name="find*" isolation="DEFAULT" read-only="true" propagation="SUPPORTS"/>
+        </tx:attributes>
+    </tx:advice>-->
+
+    <!--配置事务AOP
+    <aop:config>
+        <aop:pointcut id="pt1" expression="execution(* com.hly.service.*.*(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pt1"/>
+    </aop:config>-->
+
+
+</beans>

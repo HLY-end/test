@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="hly_emal_ssm:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8568334-cec0-49f5-aae4-982e47515bf1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Tag Library Descriptor" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache_maven_3.5.4\mvn" />
+        <option name="mavenHome" value="D:/apache_maven_3.5.4" />
+        <option name="userSettingsFile" value="D:\apache_maven_3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gw9o8jB8Uyo6oVE7NaSztD4KuW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea project\hly_emall_ssm\src\resource" />
+      <recent name="D:\idea project\hly_emall_ssm\src\mapper" />
+      <recent name="D:\idea project\hly_emall_ssm\src\com\hly\dao" />
+      <recent name="D:\idea project\hly_emall_ssm\src\com\hly\mapper" />
+      <recent name="D:\idea project\hly_emall_ssm\web\WEB-INF\pages" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hly.domain" />
+      <recent name="com.hly.test" />
+      <recent name="com.hly.dao" />
+      <recent name="com.hly.model" />
+      <recent name="com.hly.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea project\hly_emall_ssm\src\resource\myBatis" />
+      <recent name="D:\idea project\hly_emall_ssm\src\mapper" />
+      <recent name="D:\idea project\hly_emall_ssm\src\com\hly\util" />
+      <recent name="D:\idea project\hly_emall_ssm\src\com\hly\model" />
+      <recent name="D:\idea project\hly_emall_ssm\web\admin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.271">
+    <configuration name="encodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hly.test.encodeTest" />
+      <module name="hly_emall_ssm_Upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hly.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cache_1.testFirstLevelCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hly_emall_ssm_Upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hly.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hly.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hly.test.Cache_1" />
+      <option name="METHOD_NAME" value="testFirstLevelCache" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cacheTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hly_emall_ssm_Upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hly.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hly.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hly.test.cacheTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.271" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.271" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8055/hly_emal_ssm_war_exploded/" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes=&quot;&quot; -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf=true -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="hly_emal_ssm:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/hly_emal_ssm_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_hly_emall_ssm_2" />
+        <option name="HTTP_PORT" value="8055" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3071" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="hly_emal_ssm:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.encodeTest" />
+      <item itemvalue="JUnit.cacheTest.test1" />
+      <item itemvalue="JUnit.Cache_1.testFirstLevelCache" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.271" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Cache_1.testFirstLevelCache" />
+        <item itemvalue="JUnit.cacheTest.test1" />
+        <item itemvalue="Application.encodeTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.12978142" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8568334-cec0-49f5-aae4-982e47515bf1" name="Default Changelist" comment="" />
+      <created>1599014959994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599014959994</updated>
+      <workItem from="1599014962278" duration="1591000" />
+      <workItem from="1599016807317" duration="1695000" />
+      <workItem from="1599046343867" duration="2618000" />
+      <workItem from="1599097604211" duration="4644000" />
+      <workItem from="1599134389238" duration="1416000" />
+      <workItem from="1599212753472" duration="1428000" />
+      <workItem from="1599289269913" duration="4683000" />
+      <workItem from="1599412937614" duration="660000" />
+      <workItem from="1599458690382" duration="5924000" />
+      <workItem from="1599499975203" duration="666000" />
+      <workItem from="1599543090396" duration="8256000" />
+      <workItem from="1599576602376" duration="6169000" />
+      <workItem from="1599611623092" duration="6925000" />
+      <workItem from="1599717282597" duration="2891000" />
+      <workItem from="1599787832148" duration="3258000" />
+      <workItem from="1599791889919" duration="179000" />
+      <workItem from="1599803752174" duration="1722000" />
+      <workItem from="1599809707916" duration="1766000" />
+      <workItem from="1599981060221" duration="4315000" />
+      <workItem from="1600013004050" duration="22000" />
+      <workItem from="1600043743179" duration="5375000" />
+      <workItem from="1600052955065" duration="2082000" />
+      <workItem from="1600061992935" duration="605000" />
+      <workItem from="1600063931097" duration="16000" />
+      <workItem from="1600065228486" duration="24000" />
+      <workItem from="1600066406483" duration="111000" />
+      <workItem from="1600091720998" duration="3000" />
+      <workItem from="1600092405130" duration="82000" />
+      <workItem from="1600092500611" duration="250000" />
+      <workItem from="1600093001879" duration="2506000" />
+      <workItem from="1600132627211" duration="2754000" />
+      <workItem from="1600146612737" duration="261000" />
+      <workItem from="1600187381179" duration="115000" />
+      <workItem from="1600187922250" duration="7000" />
+      <workItem from="1600217725221" duration="3908000" />
+      <workItem from="1600266282790" duration="6000" />
+      <workItem from="1600266366295" duration="706000" />
+      <workItem from="1600267618753" duration="24000" />
+      <workItem from="1600284376225" duration="5000" />
+      <workItem from="1600303092330" duration="10438000" />
+      <workItem from="1600352184188" duration="852000" />
+      <workItem from="1600353149870" duration="382000" />
+      <workItem from="1600389725347" duration="9269000" />
+      <workItem from="1600401449781" duration="97000" />
+      <workItem from="1600443438941" duration="239000" />
+      <workItem from="1600446910384" duration="195000" />
+      <workItem from="1600452147957" duration="4336000" />
+      <workItem from="1600475668962" duration="8760000" />
+      <workItem from="1600585930818" duration="4733000" />
+      <workItem from="1600604674070" duration="7340000" />
+      <workItem from="1600666380651" duration="12497000" />
+      <workItem from="1600686521042" duration="3297000" />
+      <workItem from="1600734938994" duration="10926000" />
+      <workItem from="1600754814754" duration="517000" />
+      <workItem from="1600842742922" duration="922000" />
+      <workItem from="1600854693982" duration="6988000" />
+      <workItem from="1600864299974" duration="2548000" />
+      <workItem from="1600866934524" duration="2539000" />
+      <workItem from="1600907987756" duration="11286000" />
+      <workItem from="1600951034805" duration="7000" />
+      <workItem from="1600960658878" duration="614000" />
+      <workItem from="1600993795679" duration="11987000" />
+      <workItem from="1601023076860" duration="127000" />
+      <workItem from="1601051776822" duration="569000" />
+      <workItem from="1601200466837" duration="5536000" />
+      <workItem from="1601211007782" duration="936000" />
+      <workItem from="1601272359577" duration="11062000" />
+      <workItem from="1601307390454" duration="704000" />
+      <workItem from="1601341019339" duration="10367000" />
+      <workItem from="1601371000094" duration="87000" />
+      <workItem from="1601986478225" duration="67000" />
+      <workItem from="1602001339227" duration="62000" />
+      <workItem from="1602068011420" duration="45000" />
+      <workItem from="1602221596657" duration="8011000" />
+      <workItem from="1602238882214" duration="4354000" />
+      <workItem from="1602262443139" duration="702000" />
+      <workItem from="1602291414397" duration="4435000" />
+      <workItem from="1602335763306" duration="116000" />
+      <workItem from="1602466083643" duration="8942000" />
+      <workItem from="1602519134104" duration="683000" />
+      <workItem from="1602520171336" duration="1000" />
+      <workItem from="1602572328265" duration="53000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="91" key="#Console" timestamp="1600670087618">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="91" key="#Console/0.0.1536.864@0.0.1536.864" timestamp="1600670087618" />
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602294949788">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1602294949788" />
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1602472015297">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1602472015297" />
+    <state x="360" y="90" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1599500382580">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="360" y="90" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.864@0.0.1536.864" timestamp="1599500382580" />
+    <state x="548" y="317" width="439" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600055496963">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="548" y="317" width="439" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1600055496963" />
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601347001183">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1601347001183" />
+    <state x="499" y="187" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1599016456511">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="187" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.864@0.0.1536.864" timestamp="1599016456511" />
+    <state x="514" y="170" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602469890670">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="514" y="170" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1602469890670" />
+    <state x="547" y="173" key="FileChooserDialogImpl" timestamp="1602578378928">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="547" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1602578378928" />
+    <state width="1273" height="139" key="GridCell.Tab.0.bottom" timestamp="1602475190100">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1273" height="139" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602475190100" />
+    <state width="1273" height="139" key="GridCell.Tab.0.center" timestamp="1602475190100">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1273" height="139" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1602475190100" />
+    <state width="1273" height="139" key="GridCell.Tab.0.left" timestamp="1602475190100">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1273" height="139" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1602475190100" />
+    <state width="1273" height="139" key="GridCell.Tab.0.right" timestamp="1602475190100">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1273" height="139" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1602475190100" />
+    <state width="1273" height="139" key="GridCell.Tab.1.bottom" timestamp="1602475190101">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1273" height="139" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602475190101" />
+    <state width="1273" height="139" key="GridCell.Tab.1.center" timestamp="1602475190100">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1273" height="139" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1602475190100" />
+    <state width="1273" height="139" key="GridCell.Tab.1.left" timestamp="1602475190100">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1273" height="139" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1602475190100" />
+    <state width="1273" height="139" key="GridCell.Tab.1.right" timestamp="1602475190101">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1273" height="139" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1602475190101" />
+    <state width="1273" height="139" key="GridCell.Tab.2.bottom" timestamp="1602475190101">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1273" height="139" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602475190101" />
+    <state width="1273" height="139" key="GridCell.Tab.2.center" timestamp="1602475190101">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1273" height="139" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1602475190101" />
+    <state width="1273" height="139" key="GridCell.Tab.2.left" timestamp="1602475190101">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1273" height="139" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1602475190101" />
+    <state width="1273" height="139" key="GridCell.Tab.2.right" timestamp="1602475190101">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1273" height="139" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1602475190101" />
+    <state width="604" height="227" key="GridCell.Tab.3.bottom" timestamp="1601347050063">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="604" height="227" key="GridCell.Tab.3.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601347050063" />
+    <state width="604" height="227" key="GridCell.Tab.3.center" timestamp="1601347050063">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="604" height="227" key="GridCell.Tab.3.center/0.0.1536.864@0.0.1536.864" timestamp="1601347050063" />
+    <state width="604" height="227" key="GridCell.Tab.3.left" timestamp="1601347050063">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="604" height="227" key="GridCell.Tab.3.left/0.0.1536.864@0.0.1536.864" timestamp="1601347050063" />
+    <state width="604" height="227" key="GridCell.Tab.3.right" timestamp="1601347050063">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="604" height="227" key="GridCell.Tab.3.right/0.0.1536.864@0.0.1536.864" timestamp="1601347050063" />
+    <state x="369" y="138" key="NewModule_or_Project.wizard" timestamp="1600053270884">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="369" y="138" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1600053270884" />
+    <state x="116" y="0" key="SettingsEditor" timestamp="1602578368136">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="116" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1602578368136" />
+    <state x="377" y="137" width="782" height="590" key="find.popup" timestamp="1602474794380">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="377" y="137" width="782" height="590" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1602474794380" />
+    <state x="635" y="298" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1602229824993">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="635" y="298" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1536.864@0.0.1536.864" timestamp="1602229824993" />
+    <state x="351" y="90" key="new project wizard" timestamp="1601308453236">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="351" y="90" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1601308453236" />
+    <state x="626" y="311" key="save.project.as.template.dialog" timestamp="1602469896516">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="626" y="311" key="save.project.as.template.dialog/0.0.1536.864@0.0.1536.864" timestamp="1602469896516" />
+    <state x="842" y="144" width="672" height="678" key="search.everywhere.popup" timestamp="1601273777055">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="842" y="144" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1601273777055" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/util/PageUtil.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/util/PageUtil.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/util/PageUtil.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/util/PageUtil.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/util/PageUtil.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/util/PageUtil.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/util/PageUtil.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/util/PageUtil.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/util/PageUtil.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/util/PageUtil.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/util/PageUtil.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/util/PageUtil.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/util/PageUtil.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/util/PageUtil.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/util/PageUtil.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hly/service/GoodsService.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

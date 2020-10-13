@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hly.dao.IUserDao">
+
+    <sql id="defaultSql">
+        select * from users
+    </sql>
+
+    <!--查询所有-->
+    <select id="findAll" resultType="users">
+            <include refid="defaultSql"></include>
+    </select>
+
+    <select id="findByTiaoJian" parameterType="users" resultType="users">
+        <include refid="defaultSql"></include>
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="username != null">
+                and username = #{username}
+            </if>
+            <if test="password != null">
+                and password = #{password}
+            </if>
+            <if test="name != null">
+                and name = #{name}
+            </if>
+            <if test="phone != null">
+                and phone = #{phone}
+            </if>
+            <if test="address != null">
+                and address = #{address}
+            </if>
+        </where>
+    </select>
+
+
+    <insert id="insertUsers" parameterType="users" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+        insert into users
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                username,
+            </if>
+            <if test="password != null">
+                password,
+            </if>
+            <if test="name != null">
+                name,
+            </if>
+            <if test="phone != null">
+                phone,
+            </if>
+            <if test="address != null">
+                address,
+            </if>
+        </trim>
+
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                #{username,jdbcType=VARCHAR},
+            </if>
+            <if test="password != null">
+                #{password,jdbcType=VARCHAR},
+            </if>
+            <if test="name != null">
+                #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="phone != null">
+                #{phone,jdbcType=VARCHAR},
+            </if>
+            <if test="address != null">
+                #{address,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+
+    <update id="update" parameterType="users">
+        update users
+        <set>
+            <if test="username != null">
+                username = #{username},
+            </if>
+            <if test="password != null">
+                password = #{password},
+            </if>
+            <if test="name != null">
+                name = #{name},
+            </if>
+            <if test="phone != null">
+                phone = #{phone},
+            </if>
+            <if test="address != null">
+                address = #{address},
+            </if>
+        </set>
+        <where>
+            <if test="id != null">
+                id = #{id};
+            </if>
+        </where>
+    </update>
+
+
+</mapper>

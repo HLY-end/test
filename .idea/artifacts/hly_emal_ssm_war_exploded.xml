@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hly_emal_ssm:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/hly_emal_ssm_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="hly_emall_ssm_Upload/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hly_emall_ssm_Upload" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

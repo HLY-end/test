@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <properties resource="jdbcConfig.properties">
+    </properties>
+
+
+    <settings>
+        <!--开启二级缓存的支持-->
+        <setting name="cacheEnabled" value="true"/>
+        <!--开启驼峰命名法-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <!--为实体类起别名-->
+    <typeAliases>
+        <package name="com.hly.model"/>
+    </typeAliases>
+
+    <!--<environments default="mySql">
+        <environment id="mySql">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>-->
+
+    <!--<mappers>
+        <package name="com.hly.dao"/>
+    </mappers>-->
+    
+</configuration>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hly.dao.IGoodsDao">
+
+    <cache eviction="LRU" readOnly="true"/>
+
+    <select id="findToDay" resultType="goods">
+        select g.* from goods g join tops t on g.id = t.good_id
+    </select>
+
+    <select id="findHot" resultType="goods">
+        select * from goods order by sales DESC LIMIT 0,9
+    </select>
+
+    <select id="findType" parameterType="integer" resultType="goods">
+        select * from goods where type_id = #{typeId} order by id desc limit #{begin},#{size}
+    </select>
+
+    <select id="selectCountByTypeId" parameterType="int" resultType="int">
+        select count(*) from goods where type_id = #{id}
+    </select>
+
+    <select id="selectCount" parameterType="int" resultType="int">
+        select count(*) from goods
+    </select>
+
+    <select id="selectListByTopType" resultType="goods">
+        select * from goods g join tops t on g.id = t.good_id where t.type = #{type} order by t.id desc limit #{begin} , #{size}
+    </select>
+
+    <select id="selectCountByTopType" resultType="int">
+        select count(*) from goods g join tops t on g.id = t.good_id where t.type = #{type}
+    </select>
+
+    <select id="selectListByHot" resultType="goods">
+        select * from goods order by sales desc limit #{begin},#{size}
+    </select>
+
+    <select id="selectListByNew" resultType="goods">
+        select * from goods order by id desc limit #{begin},#{size}
+    </select>
+
+    <select id="selectById" parameterType="integer" resultType="goods">
+        select * from goods where id = #{id}
+    </select>
+
+</mapper>

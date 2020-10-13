@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hly.dao.IUserDao_cache"> <!--用户持久层接口的映射文件-->
+
+    <!--开userDao支持二级缓存-->
+    <cache eviction="FIFO" flushInterval="6000" size="512" readOnly="false"/>
+
+    <!--配置 查询结果的列名和实体类的属性名的对应关系 结果映射--> <!--id 标识名，可以随便取； type，要封装的实体类-->
+    <resultMap id="userAccountMap" type="user">
+        <id column="id" property="id"></id>
+        <result column="username" property="username"/>
+        <result column="birthday" property="birthday"/>
+        <result column="sex" property="sex"/>
+        <result column="address" property="address"/>
+    </resultMap>
+
+    <!--查询所有-->
+    <select id="findAll" resultMap="userAccountMap">
+            select * from user;
+    </select>
+
+    <!--根据id查询一个-->                                        <!--设置该查询支持二级缓存-->
+    <select id="findById" parameterType="Int" resultType="user" useCache="true">
+        select * from user where id = #{userId}
+    </select>
+
+    <!--修改用户信息-->
+    <update id="updateUser" parameterType="user">
+        update user set username=#{username},address=#{address} where id = #{id};
+    </update>
+
+</mapper>
